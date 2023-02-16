@@ -1,5 +1,5 @@
 # The sensory quality and spatiotemporal location of thermal spots are inconsistent.
-[Data]()
+[Data](data/)
 
 ## Highlights
 * Our skin's sensitivity to temperature is not uniform, but rather is highly concentrated in small regions called "thermosensitive spots".
