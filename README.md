@@ -1,5 +1,7 @@
-# Revisiting a classical theory of sensory specificity: assessing consistency and stability of thermosensitive spots.
+# Revisiting a classical theory of sensory specificity: assessing consistency and stability of thermosensitive spots
 [Data](data/)
+[BioRxiv v2](https://www.biorxiv.org/content/10.1101/2023.07.17.549302v2)
+[BioRxiv v1](https://www.biorxiv.org/content/10.1101/2023.07.17.549302v1)
 
 ## Highlights
 * Our skin's sensitivity to temperature is not uniform, but rather is highly concentrated in small regions called "thermosensitive spots".
