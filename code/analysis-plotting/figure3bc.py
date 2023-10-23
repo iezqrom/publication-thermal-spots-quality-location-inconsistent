@@ -103,7 +103,7 @@ ax.invert_xaxis()
 # removeSpines(ax, sides=['left', 'right', 'top', 'bottom'])
 
 plt.savefig(
-    f"../figures/figure{figure_paper_number}/figure{figure_paper_number}A_edges_all.svg",
+    f"../../figures/figure{figure_paper_number}/figure{figure_paper_number}A_edges_all.svg",
     bbox_inches="tight",
     transparent=True,
 )
@@ -169,7 +169,7 @@ prettifySpinesTicks(ax)
 removeSpines(ax)
 
 plt.savefig(
-    f"../figures/figure{figure_paper_number}/figure{figure_paper_number}A_quadrants_spots_all.svg",
+    f"../../figures/figure{figure_paper_number}/figure{figure_paper_number}A_quadrants_spots_all.svg",
     transparent=True,
 )
 # %%
@@ -224,7 +224,7 @@ plt.tight_layout()
 ax.set_ylim([0, 2])
 
 plt.savefig(
-    f"../figures/figure{figure_paper_number}/figure{figure_paper_number}B_aggregation.svg",
+    f"../../figures/figure{figure_paper_number}/figure{figure_paper_number}B_aggregation.svg",
     transparent=True,
     dpi=300,
 )

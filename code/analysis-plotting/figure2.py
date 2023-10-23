@@ -120,7 +120,7 @@ ax.set_ylim([0, 400])
 ax.set_xlim([-1, 2.4])
 
 plt.savefig(
-    f"../figures/figure{figure_paper_number}/figure{figure_paper_number}b.svg",
+    f"../../figures/figure{figure_paper_number}/figure{figure_paper_number}b.svg",
     dpi=300,
     transparent=True,
 )
@@ -160,7 +160,7 @@ ax.set_ylim([0, 125])
 # ax.set_xlim([-1, 2.4])
 
 plt.savefig(
-    f"../figures/figure{figure_paper_number}/figure{figure_paper_number}c.svg",
+    f"../../figures/figure{figure_paper_number}/figure{figure_paper_number}c.svg",
     dpi=300,
     transparent=True,
 )

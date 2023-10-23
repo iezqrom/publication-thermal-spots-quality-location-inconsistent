@@ -131,7 +131,7 @@ for index, subject in enumerate(subjects):
         ax.set_ylim(ymin=420, ymax=0)
 
         plt.savefig(
-            f"../figures/figure{figure_paper_number}/edges/figure{figure_paper_number}_subject{subject}.svg",
+            f"../../figures/figure{figure_paper_number}/edges/figure{figure_paper_number}_subject{subject}.svg",
             bbox_inches="tight",
             transparent=True,
         )
@@ -215,7 +215,7 @@ ax.set_ylim(ymin=570, ymax=190)
 ax.set_xlim(xmin=1080, xmax=0)
 
 plt.savefig(
-    f"../figures/figure{figure_paper_number}/edges/figure{figure_paper_number}_subject{subject}.svg",
+    f"../../figures/figure{figure_paper_number}/edges/figure{figure_paper_number}_subject{subject}.svg",
     bbox_inches="tight",
     transparent=True,
 )
@@ -282,6 +282,6 @@ ax.axes.get_xaxis().set_visible(False)
 ax.axes.get_yaxis().set_visible(False)
 ax.set_frame_on(False)
 
-plt.savefig(f"../figures/figure{figure_paper_number}/legend.svg")
+plt.savefig(f"../../figures/figure{figure_paper_number}/legend.svg")
 
 # %%

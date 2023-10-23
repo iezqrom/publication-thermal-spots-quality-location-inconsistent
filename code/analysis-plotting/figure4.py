@@ -81,7 +81,7 @@ for index, subject in enumerate(subjects):
                     ax.scatter(
                         (x_coordinate + visualisation_correction[subject][0]),
                         (y_coordinate + visualisation_correction[subject][1]),
-                        s=ss + 20,
+                        s=ss + 40,
                         alpha=1,
                         color="white",
                         zorder=8,
@@ -89,7 +89,7 @@ for index, subject in enumerate(subjects):
                     ax.scatter(
                         (x_coordinate + visualisation_correction[subject][0]),
                         (y_coordinate + visualisation_correction[subject][1]),
-                        s=ss + 20,
+                        s=ss + 40,
                         alpha=1,
                         color="black",
                         zorder=9,
@@ -99,7 +99,7 @@ for index, subject in enumerate(subjects):
                     ax.scatter(
                         (x_coordinate + visualisation_correction[subject][0]),
                         (y_coordinate + visualisation_correction[subject][1]),
-                        s=ss + 90,
+                        s=ss + 110,
                         alpha=1,
                         color="black",
                         zorder=10,
@@ -120,7 +120,7 @@ for index, subject in enumerate(subjects):
                         (x_coordinate + visualisation_correction[subject][0]),
                         (y_coordinate + visualisation_correction[subject][1]),
                         str(session),
-                        fontsize=10,
+                        fontsize=20,
                         color=colors_session[session],
                         horizontalalignment="center",
                         verticalalignment="center",
@@ -137,7 +137,7 @@ for index, subject in enumerate(subjects):
         ax.set_ylim(ymin=420, ymax=0)
 
         plt.savefig(
-            f"../figures/figure{figure_paper_number}/figure{figure_paper_number}_sessions_subject{subject}.svg",
+            f"../../figures/figure{figure_paper_number}/figure{figure_paper_number}_sessions_subject{subject}.svg",
             bbox_inches="tight",
             dpi=300,
             transparent=True,
@@ -193,7 +193,7 @@ for session in sessions:
             ax.scatter(
                 (x_coordinate + visualisation_correction[subject][0]),
                 (y_coordinate + visualisation_correction[subject][1]),
-                s=ss + 20,
+                s=ss + 40,
                 alpha=1,
                 color="white",
                 zorder=8,
@@ -202,7 +202,7 @@ for session in sessions:
             ax.scatter(
                 (x_coordinate + visualisation_correction[subject][0]),
                 (y_coordinate + visualisation_correction[subject][1]),
-                s=ss + 20,
+                s=ss + 40,
                 alpha=1,
                 color="black",
                 zorder=9,
@@ -212,7 +212,7 @@ for session in sessions:
             ax.scatter(
                 (x_coordinate + visualisation_correction[subject][0]),
                 (y_coordinate + visualisation_correction[subject][1]),
-                s=ss + 90,
+                s=ss + 110,
                 alpha=1,
                 color="black",
                 zorder=10,
@@ -232,7 +232,7 @@ for session in sessions:
                 (x_coordinate + visualisation_correction[subject][0]),
                 (y_coordinate + visualisation_correction[subject][1]),
                 str(session),
-                fontsize=10,
+                fontsize=20,
                 color=colors_session[session],
                 horizontalalignment="center",
                 verticalalignment="center",
@@ -339,7 +339,7 @@ ax.tick_params(axis="both", which="both", length=0)
 ax.axes.get_xaxis().set_visible(False)
 ax.axes.get_yaxis().set_visible(False)
 
-plt.savefig(f"../figures/figure{figure_paper_number}/legend.svg", transparent=True)
+plt.savefig(f"../../figures/figure{figure_paper_number}/legend.svg", transparent=True)
 # %% ############################################
 # Check quality of conserved and sessions
 # ############################################
@@ -466,7 +466,7 @@ ax.set_ylim([0, 125])
 # ax.set_xlim([-1, 2.4])
 
 plt.savefig(
-    f"../figures/figure{figure_paper_number}/figure{figure_paper_number}b_spots_participants.svg",
+    f"../../figures/figure{figure_paper_number}/figure{figure_paper_number}b_spots_participants.svg",
     dpi=300,
     transparent=True,
 )
