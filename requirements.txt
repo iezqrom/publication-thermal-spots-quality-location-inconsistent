@@ -17,13 +17,11 @@ ffmpeg-python==0.2.0
 fire==0.4.0
 h5py==3.2.1
 icon-font-to-png==0.4.1
-idna==3.3
 imutils==0.5.4
 ipykernel==5.4.3
 ipython==8.12.3
 iso8601==1.0.2
 jedi==0.18.0
-Jinja2==3.1.2
 jupyter-client==6.1.11
 jupyter-core==4.7.0
 keyboard==0.13.5
