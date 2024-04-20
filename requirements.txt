@@ -1,7 +1,6 @@
 appnope==0.1.2
 asttokens==2.0.5
 backcall==0.2.0
-black==22.8.0
 blis==0.7.8
 catalogue==2.0.7
 charset-normalizer==2.1.0
